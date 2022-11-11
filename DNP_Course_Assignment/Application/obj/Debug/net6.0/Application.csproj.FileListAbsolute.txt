@@ -1,0 +1,15 @@
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\bin\Debug\net6.0\Application.dll
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\bin\Debug\net6.0\DomainOrShared.dll
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\bin\Debug\net6.0\DomainOrShared.pdb
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.dll
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\Application\obj\Debug\net6.0\ref\Application.dll

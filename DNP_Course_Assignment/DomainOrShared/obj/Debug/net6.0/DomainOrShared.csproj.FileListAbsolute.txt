@@ -1,0 +1,12 @@
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\bin\Debug\net6.0\DomainOrShared.deps.json
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\bin\Debug\net6.0\DomainOrShared.dll
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\bin\Debug\net6.0\DomainOrShared.pdb
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\DomainOrShared.csproj.AssemblyReference.cache
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\DomainOrShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\DomainOrShared.AssemblyInfoInputs.cache
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\DomainOrShared.AssemblyInfo.cs
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\DomainOrShared.csproj.CoreCompileInputs.cache
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\DomainOrShared.dll
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\refint\DomainOrShared.dll
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\DomainOrShared.pdb
+C:\Users\rojus\RiderProjects\DNP_Course_Assignment\DomainOrShared\obj\Debug\net6.0\ref\DomainOrShared.dll

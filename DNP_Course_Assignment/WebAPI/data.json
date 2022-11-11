@@ -1,0 +1,141 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Rojus",
+      "Password": "ruonis"
+    },
+    {
+      "Id": 2,
+      "UserName": "Ignas",
+      "Password": "nacho"
+    },
+    {
+      "Id": 3,
+      "UserName": "Gytis",
+      "Password": "nexerg"
+    },
+    {
+      "Id": 4,
+      "UserName": "Igor",
+      "Password": "lenkas"
+    },
+    {
+      "Id": 5,
+      "UserName": "Franekas",
+      "Password": "lenkas"
+    },
+    {
+      "Id": 6,
+      "UserName": "Jan",
+      "Password": "cook"
+    },
+    {
+      "Id": 7,
+      "UserName": "Domas",
+      "Password": "debilas"
+    },
+    {
+      "Id": 8,
+      "UserName": "Jakob",
+      "Password": "123"
+    },
+    {
+      "Id": 9,
+      "UserName": "Dercio",
+      "Password": "sportsman"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Author": {
+        "Id": 1,
+        "UserName": "Rojus",
+        "Password": "ruonis"
+      },
+      "Title": "Blazor is hard",
+      "Body": "Blazor is bloddy hard, i am having troubles with it"
+    },
+    {
+      "Id": 2,
+      "Author": {
+        "Id": 2,
+        "UserName": "Ignas",
+        "Password": "nacho"
+      },
+      "Title": "Help wanted",
+      "Body": "How do i shave my bottoms?"
+    },
+    {
+      "Id": 3,
+      "Author": {
+        "Id": 3,
+        "UserName": "Gytis",
+        "Password": "nexerg"
+      },
+      "Title": "Pls nerf Bastion",
+      "Body": "All you have to do is go crazy go stupid and win the game"
+    },
+    {
+      "Id": 4,
+      "Author": {
+        "Id": 1,
+        "UserName": "Rojus",
+        "Password": "ruonis"
+      },
+      "Title": "test",
+      "Body": "test"
+    },
+    {
+      "Id": 5,
+      "Author": {
+        "Id": 1,
+        "UserName": "Rojus",
+        "Password": "ruonis"
+      },
+      "Title": "test2",
+      "Body": "test2 is a success?"
+    },
+    {
+      "Id": 6,
+      "Author": {
+        "Id": 7,
+        "UserName": "Domas",
+        "Password": "debilas"
+      },
+      "Title": "Domas=Debilas?!?!?!",
+      "Body": "tyrimai tikrai nurodo jog Domas Katinas serga debilizmu, kaip fainai :000"
+    },
+    {
+      "Id": 7,
+      "Author": {
+        "Id": 1,
+        "UserName": "Rojus",
+        "Password": "ruonis"
+      },
+      "Title": "Test 3",
+      "Body": "Jakob pls giv me a pass"
+    },
+    {
+      "Id": 8,
+      "Author": {
+        "Id": 8,
+        "UserName": "Jakob",
+        "Password": "123"
+      },
+      "Title": "Teacher review",
+      "Body": "Jakob is amaizing, pls give me a pass"
+    },
+    {
+      "Id": 9,
+      "Author": {
+        "Id": 9,
+        "UserName": "Dercio",
+        "Password": "sportsman"
+      },
+      "Title": "Title",
+      "Body": "Body body many bodies"
+    }
+  ]
+}

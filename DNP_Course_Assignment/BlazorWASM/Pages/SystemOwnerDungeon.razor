@@ -1,0 +1,12 @@
+@page "/SystemOwnerDungeon"
+@attribute [Authorize]
+
+<AuthorizeView Policy="IsOwner">
+    <Authorized>
+        <h3>Yeah this place is actually empty and can only be accessed by the system owner aka me by having userId=1. Room for improvements tho? ;) </h3>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    
+}

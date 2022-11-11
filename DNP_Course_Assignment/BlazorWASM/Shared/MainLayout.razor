@@ -1,0 +1,33 @@
+﻿@using BlazorWASM.Services
+@inherits LayoutComponentBase
+@inject NavigationManager navMgr
+@inject IAuthService authService
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu/>
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <AuthorizeView>
+                <Authorized>
+                    <button @onclick="Logout" class="acceptbtn">Log-out</button>
+                </Authorized>
+            </AuthorizeView>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+
+    private async Task Logout()
+    {
+        await authService.LogoutAsync();
+        navMgr.NavigateTo("/");
+    }
+}
