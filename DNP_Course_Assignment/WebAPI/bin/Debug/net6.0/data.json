@@ -39,6 +39,11 @@
       "Id": 8,
       "UserName": "Jakob",
       "Password": "123"
+    },
+    {
+      "Id": 9,
+      "UserName": "Dercio",
+      "Password": "sportsman"
     }
   ],
   "Posts": [
@@ -121,6 +126,16 @@
       },
       "Title": "Teacher review",
       "Body": "Jakob is amaizing, pls give me a pass"
+    },
+    {
+      "Id": 9,
+      "Author": {
+        "Id": 9,
+        "UserName": "Dercio",
+        "Password": "sportsman"
+      },
+      "Title": "Title",
+      "Body": "Body body many bodies"
     }
   ]
 }

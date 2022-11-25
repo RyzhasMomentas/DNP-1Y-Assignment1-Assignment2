@@ -120,14 +120,14 @@
         }
       }
     },
-    "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\FileData\\FileData.csproj": {
+    "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\FileData\\FileData.csproj",
-        "projectName": "FileData",
-        "projectPath": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\FileData\\FileData.csproj",
+        "projectUniqueName": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\EfcDataAccess\\EfcDataAccess.csproj",
         "packagesPath": "C:\\Users\\rojus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\FileData\\obj\\",
+        "outputPath": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rojus\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -157,6 +157,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -202,8 +218,8 @@
               "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\Application\\Application.csproj"
               },
-              "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\FileData\\FileData.csproj"
+              "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Users\\rojus\\RiderProjects\\DNP_Course_Assignment\\EfcDataAccess\\EfcDataAccess.csproj"
               }
             }
           }
