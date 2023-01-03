@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oa1Alszxqh2dJa/1eGIjCQ9bssFrVYKmJtUjT2HD6vS+zIHcX9KWSzw4ETKo6sfGJX4KHWZjec/zHU2Uc9ZCnA==",
+  "dgSpecHash": "kB2roKjfFK2Y3Qz/KkUeNFFYXpchtUJqLX+kVw1ST0dg/t8TLdf051+dD3p3b9QOnhuvpeN7w4mz2NULnX3GnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rojus\\RiderProjects\\Test-Exam\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\rojus\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\rojus\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\rojus\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\rojus\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\rojus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\rojus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

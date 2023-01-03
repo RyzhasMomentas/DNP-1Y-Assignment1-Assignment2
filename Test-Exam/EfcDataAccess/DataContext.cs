@@ -10,7 +10,7 @@ public class DataContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source = Test.db");
+        optionsBuilder.UseSqlite("Data Source = ../EfcDataAccess/Test.db");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
