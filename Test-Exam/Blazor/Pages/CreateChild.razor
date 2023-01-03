@@ -1,0 +1,83 @@
+@using HttpClients
+@using Domain
+@inject ChildHttpClient childService
+@inject NavigationManager navMgr;
+
+<div class="card">
+    <h3>Create Child</h3>
+    <div class="form-group field">
+        <div>
+            <label>Child name:</label>
+        </div>
+        <div>
+            <input type="text" @bind="name" @bind:event="oninput"/>
+        </div>
+        <div>
+            <label>Child age:</label>
+        </div>
+        <div>
+            <input type="number" @bind="age" @bind:event="oninput"/>
+        </div>
+        <div>
+            <label>Child Gender:</label>
+        </div>
+        <div>
+            <input type="text" @bind="gender" @bind:event="oninput"/>
+        </div>
+        
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
+    </div>
+    <div class="button-row">
+        <button @onclick="Create" disabled="@(string.IsNullOrEmpty(name) || age<0 || string.IsNullOrEmpty(gender))" class="acceptbtn">Create</button>
+    </div>
+</div>
+
+@code {
+    private string name;
+    private int age;
+    private string gender;
+    private string resultMsg = "";
+    private string color = "";
+
+    private async Task Create()
+    {
+        resultMsg = "";
+
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            resultMsg = "Name cannot be empty";
+            return;
+        }
+        if (age < 0)
+        {
+            resultMsg = "Age must not be less than 0";
+            return;
+        }
+        if (string.IsNullOrWhiteSpace(gender))
+        {
+            resultMsg = "Gender cannot be empty";
+            return;
+        }
+
+        try
+        {
+            await childService.Create(new Child(name, age, gender));
+            name = "";
+            age = 0;
+            gender = "";
+            resultMsg = "Child successfully created";
+            color = "green";
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
+    }
+
+}
