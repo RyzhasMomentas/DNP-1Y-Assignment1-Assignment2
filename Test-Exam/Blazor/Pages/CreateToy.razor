@@ -1,0 +1,112 @@
+@page "/CreateToy"
+@using HttpClients
+@using Domain
+@using System.Runtime.CompilerServices
+@inject ChildHttpClient childService
+@inject ToyHttpClient toyService
+@inject NavigationManager navMgr;
+
+<div class="card">
+    <h3>Create Child</h3>
+    <div class="form-group field">
+        <div>
+            <label>Child name:</label>
+        </div>
+        <div>
+            <input type="text" @bind="name" @bind:event="oninput"/>
+        </div>
+        <div>
+            <label>Child age:</label>
+        </div>
+        <div>
+            <input type="text" @bind="color" @bind:event="oninput"/>
+        </div>
+        <div>
+            <label>Child Gender:</label>
+        </div>
+        <div>
+            <input type="text" @bind="condition" @bind:event="oninput"/>
+        </div>
+        <div>
+            <InputSelect @bind-Value="owner">
+                @foreach (Child child in childrenList)
+                {
+                    <option value=child>child.Name</option>
+                }
+            </InputSelect>
+        </div>
+        
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
+    </div>
+    <div class="button-row">
+        <button @onclick="Create" disabled="@(string.IsNullOrEmpty(name) || string.IsNullOrEmpty(condition) || string.IsNullOrEmpty(condition))" class="acceptbtn">Create</button>
+    </div>
+</div>
+
+@code {
+    private ICollection<Child>? childrenList;
+    private string name;
+    private string color;
+    private string condition;
+    private Child owner;
+    private string resultMsg;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            childrenList = await childService.GetAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+        }
+    }
+
+    private async Task Create()
+    {
+        resultMsg = "";
+
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            resultMsg = "Name cannot be empty";
+            return;
+        }
+        if (string.IsNullOrWhiteSpace(color))
+        {
+            resultMsg = "Color cannot be empty";
+            return;
+        }
+        if (string.IsNullOrWhiteSpace(condition))
+        {
+            resultMsg = "Condition cannot be empty";
+            return;
+        }
+        if (owner.Equals(null))
+        {
+            resultMsg = "Owner not found";
+            return;
+        }
+
+        try
+        {
+            await toyService.Create(new Toy(name, color, condition, owner));
+            name = "";
+            color = "";
+            condition = "";
+            resultMsg = "Toy successfully created";
+            color = "green";
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
+    }
+}

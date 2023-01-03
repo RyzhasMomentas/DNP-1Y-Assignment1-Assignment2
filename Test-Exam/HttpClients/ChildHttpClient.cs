@@ -28,4 +28,19 @@ public class ChildHttpClient
         })!;
         return child;
     }
+    public async Task<ICollection<Child>> GetAsync()
+    {
+        HttpResponseMessage response = await client.GetAsync("/children");
+        string content = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(content);
+        }
+
+        ICollection<Child> children = JsonSerializer.Deserialize<ICollection<Child>>(content, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return children;
+    }
 }
