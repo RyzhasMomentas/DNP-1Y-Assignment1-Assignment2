@@ -558,6 +558,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "WebAPI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "WebAPI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1428,6 +1441,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
     "WebAPI/1.0.0": {
       "type": "project",
       "path": "../WebAPI/WebAPI.csproj",
@@ -1436,10 +1454,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.1",
-      "WebAPI >= 1.0.0"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.1"
     ]
   },
   "packageFolders": {
@@ -1467,8 +1485,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\rojus\\RiderProjects\\Test-Exam\\WebAPI\\WebAPI.csproj": {
-              "projectPath": "C:\\Users\\rojus\\RiderProjects\\Test-Exam\\WebAPI\\WebAPI.csproj"
+            "C:\\Users\\rojus\\RiderProjects\\Test-Exam\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\rojus\\RiderProjects\\Test-Exam\\Domain\\Domain.csproj"
             }
           }
         }

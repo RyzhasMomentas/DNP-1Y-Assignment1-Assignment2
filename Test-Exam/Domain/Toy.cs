@@ -11,4 +11,5 @@ public class Toy
     public string Color { get; set; }
     public string Condition { get; set; }
     public bool IsFavorite { get; set; }
+    public Child Owner { get; set; }
 }

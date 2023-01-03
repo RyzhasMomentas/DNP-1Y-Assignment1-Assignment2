@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EfcDataAccess\EfcDataAccess.csproj" />
       <ProjectReference Include="..\WebAPI\WebAPI.csproj" />
     </ItemGroup>
 

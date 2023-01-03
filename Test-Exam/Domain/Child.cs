@@ -12,4 +12,5 @@ public class Child
     public int Age { get; set; }
     [Required]
     public string Gender { get; set; }
+    public ICollection<Toy> Toys { get; set; }
 }
