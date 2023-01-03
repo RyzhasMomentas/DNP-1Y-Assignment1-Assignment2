@@ -12,7 +12,6 @@ public class Child
     public int Age { get; }
     [Required]
     public string Gender { get; }
-    public ICollection<Toy> Toys { get; set; }
 
     public Child(string name, int age, string gender)
     {

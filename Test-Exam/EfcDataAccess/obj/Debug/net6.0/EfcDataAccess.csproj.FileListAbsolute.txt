@@ -3,17 +3,10 @@ C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\obj\Debug\net6.0\EfcDataAcc
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfoInputs.cache
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfo.cs
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CoreCompileInputs.cache
-C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\WebAPI.deps.json
-C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\WebAPI.runtimeconfig.json
-C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\appsettings.json
-C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\WebAPI.exe
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.deps.json
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.runtimeconfig.json
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.dll
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.pdb
-C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\WebAPI.dll
-C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\bin\Debug\net6.0\WebAPI.pdb
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CopyComplete
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.dll
 C:\Users\rojus\RiderProjects\Test-Exam\EfcDataAccess\obj\Debug\net6.0\refint\EfcDataAccess.dll
